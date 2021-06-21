@@ -1,0 +1,29 @@
+{
+  "name": "NODEJS-fastify_api",
+  "version": "1.0.0",
+  "description": "Node.js -> Fastify API Rundown",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infiniteoo/NODEJS-fastify_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infiniteoo/NODEJS-fastify_api/issues"
+  },
+  "homepage": "https://github.com/infiniteoo/NODEJS-fastify_api#readme",
+  "dependencies": {
+    "fastify": "^3.18.0",
+    "fastify-swagger": "^4.7.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
